@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Angular.js Practice</title>
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/foundation/5.4.7/css/foundation.css">
+    </head>
+    <body ng-app="app">
+        
+        <div ng-controller="AvengersController">
+            Search by name: <input type="text" ng-model="theSearch.name">
+            Search by character: <input type="text" ng-model="theSearch.character">
+            
+            <table>
+                <tr ng-repeat="actor in avengers.cast | orderBy:'name' | filter:theSearch">
+                    Name: . . . . . . . . . . . . .Character:
+                    <td>{{actor.name}}</td>
+                    <td>{{actor.character}}</td>
+                </tr>
+            </table>
+        </div>
+        
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.27/angular.js"></script>
+        <script src="app/app.js"></script>
+    </body>
+</html>
