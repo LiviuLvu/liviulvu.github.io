@@ -1,6 +1,6 @@
 # LiviuLvu.github.io
 
-Learning to code
+Learning javascript
 
-This is a collection of javascript tests and tutorials written with Angular.js.
-This page has selected tutorials put in action: http://liviulvu.github.io/
+This is live preview selection of my tests and tutorials made with Angular.js:
+http://liviulvu.github.io/
