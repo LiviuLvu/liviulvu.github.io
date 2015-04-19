@@ -4,10 +4,10 @@ parking.directive("alert", function () {
         scope: {
             topic: '=',
             description: '=',
-            close: '&',
-            open: '&'
+            close: '&'
         },
         templateUrl: "alert.html",
-        replace: true
+        replace: true,
+        transclude: true
     };
 });
