@@ -1,0 +1,72 @@
+.nav a {
+    color: #5a5a5a;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-transform: uppercase;
+}
+
+.jumbotron {
+    height: 500px;
+    background-image: url('http://goo.gl/04j7Nn');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron h1 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Shift', sans-serif;
+}
+
+.jumbotron p {
+    color: #fff;
+    font-size: 20px;
+}
+
+.learn-more {
+    background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Shift', sans-serif;
+}
+
+.learn-more a {
+    color: #00b0ff;
+}
+
+.nav li {
+    display: inline;
+}
+
+.jumbotron .container {
+    position: relative;
+    top: 100px;
+}
+
+.neighborhood-guides {
+    background-color: #efefef;
+    border-bottom: solid 1px #dbdbdb;
+}
+
+.neighborhood-guides h2 {
+    color: #393c3d;
+    font-size: 24px;
+}
+
+.neighborhood-guides p {
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+.row .col-md-4 .thumbnail{
+    border: solid;
+    color: #dbdbdb;
+    background: white;
+}
