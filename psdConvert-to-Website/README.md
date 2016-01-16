@@ -12,5 +12,5 @@ Live preview:
 http://liviulvu.github.io/psdConvert-to-Website
 
 This is how the page looks like
-![image](https://raw.githubusercontent.com/LiviuLvu/meteor/master/psdConvert-to-Website/preview.png)
+![image](https://raw.githubusercontent.com/LiviuLvu/meteor/master/psdConvert-to-Website/preview.jpg)
 
