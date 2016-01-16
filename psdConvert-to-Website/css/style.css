@@ -2,12 +2,18 @@
 #BASE RULES
 ------------------------------------*/
 header {
-  background: #fbfbfb;
+  background: #fff;
+  position: fixed;
+  width: 100%;
 }
 a {
   text-decoration: none;
   color: #000;
   display: inline-block;
+}
+.footer {
+  display: block;
+  text-align: center;
 }
 /*----------------------------------
 #LAYOUT RULES
@@ -15,23 +21,27 @@ a {
 body {
   width: 100%;
 }
-header {
-  height: 4.25rem;
-  position: fixed;
-  width: 100%;
-}
 section {
   padding: 3.125rem 0rem;
 }
+main {
+  padding-top: 4.25rem;
+}
+figcaption {
+  margin: 0.3125rem 0rem 1.875rem;
+  font-size: 20px;
+  text-align: center;
+}
 .wrap {
   width: 80%;
-  margin: 0rem auto;
+  margin: auto;
 }
 .title {
+  max-width: 100%;
+  margin: 0rem 0rem 2.5rem;
   text-align: center;
-  font-size: 4.5rem;
+  font-size: 3.125rem;
 }
-.clearfix:before,
 .clearfix:after {
   content: "";
   display: table;
@@ -54,17 +64,26 @@ section {
 #gallery {
   background-color: #f1f494;
 }
-.logo {
-  margin-top: 0.625rem;
-  margin-right: 1.25rem;
-}
 .l-media {
   display: flex;
-  flex-wrap: row wrap;
+  justify-content: space-between;
+  padding: 0px 0px;
+  flex-wrap: wrap;
 }
-.media {
+.media-item {
   flex-basis: 30%;
-  margin: auto;
+  min-width: 12.5rem;
+}
+.media-heading {
+  margin: 0rem 0rem 0.625rem;
+}
+.media-image {
+  max-height: 100%;
+  max-width: 100%;
+}
+.nav-logo {
+  margin-top: 0.625rem;
+  margin-right: 2.6875rem;
 }
 .nav-links {
   margin-top: 1.3125rem;
@@ -75,6 +94,9 @@ section {
 }
 .nav-links a {
   font-size: 1.375rem;
+}
+.related {
+  margin-top: 3.75rem;
 }
 /*----------------------------------
 #STATE RULES
@@ -88,6 +110,9 @@ section {
   position: absolute;
   right: 35%;
   margin-top: 2.375rem;
+  width: 0px;
+  height: 0px;
+  line-height: 0px;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   border-bottom: 10px solid #94bbf4;
@@ -102,5 +127,5 @@ section {
   line-height: 0px;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-  border-bottom: 10px solid #000;
+  border-bottom: 10px solid #94bbf4;
 }
