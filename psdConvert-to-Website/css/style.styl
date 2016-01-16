@@ -1,0 +1,156 @@
+// First time using stylus.
+// Date: 2016 JAN
+
+// MAIN CONTENTS OF THIS CSS FILE
+
+// AUTOMATION
+// BASE RULES
+// LAYOUT RULES
+// MODULE RULES
+// STATE RULES
+
+//----------------------------------
+// #AUTOMATION
+//----------------------------------
+
+//Automatic pixels to rem conversion
+set-font-size(value) {
+    font-size: value; /* add PX (or original value) as backup */
+
+    if (value is inherit) {
+        /* do nothing, "inherit" has no unit */
+    } else {
+        font-size: rm(value);
+    }
+}
+
+rm() {
+    remified = ();
+
+    for arg in arguments {
+        push(remified, unit(arg/16, 'rem'));
+    }
+
+    return remified;
+}
+//Use of automatic rem conversion:
+// .foo
+//     padding rm(8px 16px 32px)
+
+// yelds:
+// .foo {
+//   padding: 0.5rem 1rem 2rem;
+// }
+
+/*----------------------------------
+#BASE RULES
+------------------------------------*/
+header
+   background #fbfbfb
+
+a
+   text-decoration none
+   color #000
+   display inline-block
+
+/*----------------------------------
+#LAYOUT RULES
+------------------------------------*/
+body
+   width 100%
+
+header
+   height rm(68px)
+   position fixed
+   width 100%
+
+section
+   padding rm(50px) 0rem
+
+.wrap
+   width 80%
+   margin 0rem auto
+
+.title
+   text-align center
+   font-size rm(72px)
+
+
+//clearfix solution
+.clearfix:before,
+.clearfix:after
+   content ""
+   display table
+
+.clearfix:after
+   clear both
+
+.clearfix
+   zoom 1 /* For IE 6/7 (trigger hasLayout) */
+
+/*----------------------------------
+#MODULE RULES
+------------------------------------*/
+#featured
+   background-color #94bbf4
+#news
+   background-color #b2f494
+#gallery
+   background-color #f1f494
+
+.logo
+   margin-top rm(10px)
+   margin-right rm(20px)
+   // float left
+
+.l-media
+   display flex
+   flex-wrap row wrap
+.media
+   flex-basis 30%
+   margin auto
+
+//trying to center menu links vertically
+// .v-center
+//    display table-cell
+//    vertical-align middle
+.nav-links
+   margin-top rm(21px)
+   float right
+   width rm(300px)
+   display flex
+   justify-content space-between
+   a
+      font-size rm(22px)
+
+/*----------------------------------
+#STATE RULES
+------------------------------------*/
+.a-container
+   //position arrow relative to a-container
+   position relative
+   //show arrow-up on hover
+   a:hover:after, a:active:after
+      content ""
+      position absolute
+      right 50% - 15%
+      margin-top rm(38px)
+      //code for arrow shape below
+      border-left 10px solid transparent
+      border-right 10px solid transparent
+      border-bottom 10px solid #94bbf4
+   //current active page
+   //this might not be necessary
+   // how to implement this?
+   .arrow:after
+      content ""
+      position absolute
+      right 50% - 15%
+      margin-top rm(38px)
+      //code for arrow shape below
+      width 0px
+      height 0px
+      line-height 0px
+      border-left 10px solid transparent
+      border-right 10px solid transparent
+      border-bottom 10px solid #000

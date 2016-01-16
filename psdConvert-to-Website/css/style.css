@@ -1,0 +1,106 @@
+/*----------------------------------
+#BASE RULES
+------------------------------------*/
+header {
+  background: #fbfbfb;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  display: inline-block;
+}
+/*----------------------------------
+#LAYOUT RULES
+------------------------------------*/
+body {
+  width: 100%;
+}
+header {
+  height: 4.25rem;
+  position: fixed;
+  width: 100%;
+}
+section {
+  padding: 3.125rem 0rem;
+}
+.wrap {
+  width: 80%;
+  margin: 0rem auto;
+}
+.title {
+  text-align: center;
+  font-size: 4.5rem;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  zoom: 1 /* For IE 6/7 (trigger hasLayout) */;
+}
+/*----------------------------------
+#MODULE RULES
+------------------------------------*/
+#featured {
+  background-color: #94bbf4;
+}
+#news {
+  background-color: #b2f494;
+}
+#gallery {
+  background-color: #f1f494;
+}
+.logo {
+  margin-top: 0.625rem;
+  margin-right: 1.25rem;
+}
+.l-media {
+  display: flex;
+  flex-wrap: row wrap;
+}
+.media {
+  flex-basis: 30%;
+  margin: auto;
+}
+.nav-links {
+  margin-top: 1.3125rem;
+  float: right;
+  width: 18.75rem;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-links a {
+  font-size: 1.375rem;
+}
+/*----------------------------------
+#STATE RULES
+------------------------------------*/
+.a-container {
+  position: relative;
+}
+.a-container a:hover:after,
+.a-container a:active:after {
+  content: "";
+  position: absolute;
+  right: 35%;
+  margin-top: 2.375rem;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #94bbf4;
+}
+.a-container .arrow:after {
+  content: "";
+  position: absolute;
+  right: 35%;
+  margin-top: 2.375rem;
+  width: 0px;
+  height: 0px;
+  line-height: 0px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #000;
+}
