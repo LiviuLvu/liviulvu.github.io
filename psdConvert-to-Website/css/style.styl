@@ -13,6 +13,16 @@
 // #STYLUS AUTOMATION
 //----------------------------------
 
+//autoprefixer
+// var stylus = require('stylus');
+// var autoprefixer = require('autoprefixer-stylus');
+
+// stylus(css)
+//   .use(autoprefixer())
+//   .render(function(err, output){
+//     console.log(output);
+//   });
+
 // creating a variable for reuse
 repeating-properties()
    content ""
@@ -26,7 +36,6 @@ repeating-properties()
    border-left 10px solid transparent
    border-right 10px solid transparent
    border-bottom 10px solid #94bbf4
-
 
 //Automatic pixels to rem conversion
 set-font-size(value) {
@@ -74,6 +83,7 @@ a
 .footer
    display block
    text-align center
+
 /*----------------------------------
 #LAYOUT RULES
 ------------------------------------*/
@@ -130,8 +140,6 @@ figcaption
    justify-content space-between
    padding 0px 0px
    margin auto
-   //need to implement auto prefixing
-   // -webkit-flex-wrap: wrap;
    flex-wrap: wrap;
 .media-item
    flex-basis 30%
@@ -145,10 +153,10 @@ figcaption
 .nav-flex
    display flex
    flex-wrap wrap
+   padding-bottom rm(8px)
 .nav-logo
    flex-grow 1
-   margin-top rm(10px)
-   margin-right rm(43px)
+   margin rm(10px 43px 0px 0px)
 .nav-links
    flex-wrap wrap
    margin-top rm(21px)
@@ -177,3 +185,8 @@ figcaption
    // how to implement this?
    .arrow:after
       repeating-properties()
+
+
+@media only screen and (min-width: rm(400px)) {
+    /* Style adjustments for viewports that meet the condition */
+}

@@ -17,7 +17,7 @@ module.exports = function(grunt) {
 
       watch: {
          files: ['css/*.styl', 'index.html'],
-         tasks: ['stylus'],
+         tasks: ['stylus', 'postcss'],
       },
 
       browserSync: {
@@ -32,8 +32,26 @@ module.exports = function(grunt) {
          }
       },
 
+      postcss: {
+         options: {
+            map: true, // inline sourcemaps
+            processors: [
+               require('pixrem')(), // add fallbacks for rem units
+               require('autoprefixer')({
+                  browsers: 'last 2 versions'
+               }), // add vendor prefixes
+               // require('cssnano')() // minify the result
+            ]
+         },
+         dist: {
+            src: 'css/style.css'
+         }
+      }
+
    });
    // register grunt plugins below
+   //autoprefixer task
+   grunt.loadNpmTasks('grunt-postcss');
    grunt.loadNpmTasks('grunt-contrib-stylus');
    grunt.loadNpmTasks('grunt-contrib-watch');
    // browser automatic reload on file change
