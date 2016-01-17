@@ -165,7 +165,6 @@ figcaption
    justify-content space-between
    a
       font-size rm(22px)
-      margin 2px
 
 .related
    margin-top rm(60px)
@@ -186,7 +185,13 @@ figcaption
    .arrow:after
       repeating-properties()
 
+@media screen and (max-width: rm(639px))
+   .nav-logo
+      display none
+   .nav-links
+      width 100%
+      // margin-top rm(21px)
+      a
+         font-size rm(18px)
+         margin rm(3px)
 
-@media only screen and (min-width: rm(400px)) {
-    /* Style adjustments for viewports that meet the condition */
-}

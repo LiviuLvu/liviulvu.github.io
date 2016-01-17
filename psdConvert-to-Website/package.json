@@ -14,5 +14,8 @@
     "grunt-contrib-stylus": "^0.22.0",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-postcss": "^0.7.1"
+  },
+  "dependencies": {
+    "stylus-media-queries": "^1.0.0"
   }
 }
