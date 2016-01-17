@@ -102,17 +102,16 @@ figcaption
    text-align center
    font-size rm(50px)
 
-
 //clearfix solution
-.clearfix:after
-   content ""
-   display table
+// .clearfix:after
+//    content ""
+//    display table
 
-.clearfix:after
-   clear both
+// .clearfix:after
+//    clear both
 
-.clearfix
-   zoom 1 /* For IE 6/7 (trigger hasLayout) */
+// .clearfix
+//    zoom 1 /* For IE 6/7 (trigger hasLayout) */
 
 /*----------------------------------
 #MODULE RULES
@@ -124,33 +123,41 @@ figcaption
 #gallery
    background-color #f1f494
 
+.center
+   margin auto
 .l-media
    display flex
    justify-content space-between
    padding 0px 0px
+   margin auto
    //need to implement auto prefixing
    // -webkit-flex-wrap: wrap;
    flex-wrap: wrap;
 .media-item
    flex-basis 30%
-   min-width rm(200px)
+   min-width rm(250px)
 .media-heading
    margin rm(0px 0px 10px)
 .media-image
    max-height 100%
    max-width 100%
 
+.nav-flex
+   display flex
+   flex-wrap wrap
 .nav-logo
+   flex-grow 1
    margin-top rm(10px)
    margin-right rm(43px)
 .nav-links
+   flex-wrap wrap
    margin-top rm(21px)
-   float right
    width rm(300px)
    display flex
    justify-content space-between
    a
       font-size rm(22px)
+      margin 2px
 
 .related
    margin-top rm(60px)
