@@ -152,7 +152,6 @@ figcaption
 
 .nav-flex
    display flex
-   flex-wrap wrap
    padding-bottom rm(8px)
 .nav-logo
    flex-grow 1
@@ -166,7 +165,7 @@ figcaption
    a
       font-size rm(22px)
 
-.related
+.media-related
    margin-top rm(60px)
 
 /*----------------------------------
@@ -176,7 +175,7 @@ figcaption
    //position arrow relative to a-container
    position relative
    //show arrow-up on hover
-   a:hover:after, a:active:after
+   a:hover:after
       repeating-properties()
 
    //current active page
@@ -185,13 +184,61 @@ figcaption
    .arrow:after
       repeating-properties()
 
+.icon-menu
+   display none
+
 @media screen and (max-width: rm(639px))
-   .nav-logo
+   header
+      background none
+   main
+      padding-top rm(0px)
+
+   //make wrap wider on small screen
+   .wrap
+      width 92%
+      margin auto
+
+   .nav-flex
+      // left 0rem
+      top 0rem
+      padding-botom 0px
+
+   .nav-logo img
       display none
+
    .nav-links
+      position absolute
+      left 0
+      // flex-flow column
       width 100%
-      // margin-top rm(21px)
+      margin rm(0px 0px 0px)
+      .a-container
+         display none
+         border-top 1px solid #d9
       a
          font-size rm(18px)
-         margin rm(3px)
+         padding rm(15px)
+      a:hover:after
+         content none
+   .icon-menu
+      position absolute
+      left 0px
+      background-color #ff
+      width 20px
+      height 20px
+      padding 10px
+      display inline
+      //css hamburger icon
+   .icon-menu:before
+      content ""
+      position absolute
+      width 22px
+      height 5px
+      border-top (@height * 2) double #000
+      border-bottom (@height - 25%) solid #000
+   //end of hamburger icon
 
+   .nav-links:hover .a-container
+      display inline
+      width 100%
+      background-color #ff
