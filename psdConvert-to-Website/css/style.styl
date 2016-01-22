@@ -8,20 +8,11 @@
 // LAYOUT RULES
 // MODULE RULES
 // STATE RULES
+// MOBILE LAYOUT
 
 //----------------------------------
 // #STYLUS AUTOMATION
 //----------------------------------
-
-//autoprefixer
-// var stylus = require('stylus');
-// var autoprefixer = require('autoprefixer-stylus');
-
-// stylus(css)
-//   .use(autoprefixer())
-//   .render(function(err, output){
-//     console.log(output);
-//   });
 
 // creating a variable for reuse
 repeating-properties()
@@ -133,11 +124,6 @@ figcaption
 #gallery
    background-color #f1f494
 
-// .center
-//    // margin 0 auto
-//    display flex
-//    flex-flow column
-
 .l-media
    display flex
    justify-content space-between
@@ -157,9 +143,6 @@ figcaption
    flex-wrap wrap
 
 .media-image
-   // flex 1 1
-   // flex-basis space-between
-   // min-width rm(250px)
    margin  rm(0 2%)
    img
       max-height 98%
@@ -202,6 +185,9 @@ figcaption
 .icon-menu
    display none
 
+/*----------------------------------
+#MOBILE LAYOUT
+------------------------------------*/
 @media screen and (max-width: rm(639px))
    header
       background none
@@ -240,30 +226,51 @@ figcaption
          padding rm(15px)
       a:hover:after
          content none
+
+   // container class for hamburger icon
    .icon-menu
       display inline
+      position relative
       left 0px
       background-color #ff
-      width 20px
-      height 20px
-      padding 10px
-      //css hamburger icon
+      width 36px
+      height @width
+
+      //css hamburger shape
    .icon-menu:before
       content ""
       position absolute
-      width 22px
+      top 25%
+      left 20%
+      width 60%
       height 5px
       border-top (@height * 2) double #000
       border-bottom (@height - 25%) solid #000
    //end of hamburger icon
 
-   // .icon-menu:after
-   //    content "X"
-   //    text-align center
-   //    font-size rm(20px)
-   //    position absolute
-   //    width 22px
+   // container class for x icon
+   .close
+      position relative
+      width 36px
+      height @width
+      overflow hidden
 
-   // .nav-links:hover .a-container
-   //    display inline
-
+   //"x" icon shape
+   .close::before, .close::after
+      content ''
+      position absolute
+      border-top 0rem
+      border-bottom 0rem
+      height rm(2px)
+      width 64%
+      top 50%
+      left 18%
+      margin-top rm(-1px)
+      background #000
+   .close::before
+      transform rotate(45deg)
+   .close::after
+      transform rotate(-45deg)
+   .close.thick::before, .close.thick::after
+      height rm(3px)
+   //end of "x" icon
