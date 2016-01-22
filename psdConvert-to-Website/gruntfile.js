@@ -16,7 +16,7 @@ module.exports = function(grunt) {
       },
 
       watch: {
-         files: ['css/*.styl', 'index.html'],
+         files: ['css/*.styl', 'index.html', 'js/main.js'],
          tasks: ['stylus', 'postcss'],
       },
 
