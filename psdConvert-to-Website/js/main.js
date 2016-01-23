@@ -1,9 +1,8 @@
-// when toggling classes, first select elements
-
 $(document).ready(function() {
-   //toggle menu icon to close icon
    $('.icon-menu').on('click', function() {
+      //show menu items
       $(this).siblings().toggleClass('a-container-show');
+      //toggle between menu icon and close icon
       $(this).toggleClass('close thick');
    });
 });
