@@ -2,8 +2,12 @@
 
 Learning javascript
 
-This is a live preview selection of my tests and tutorials:
+This is a preview of my tutorials and some small projects made with javascript and related frontend technologies:
 http://liviulvu.github.io/
 
-Frameworks I used: Angular.js, Meteor.js, Bootstrap 3
-Other technologies: NPM (Node Package Manager, Grunt)
+JS Frameworks tested: Angular1.js, Meteor.js, Bootstrap3, Phaser.js
+Other technologies:
+Node Package Manager
+Grunt and related automation tasks
+Stylus for CSS
+Sublime Text 3
