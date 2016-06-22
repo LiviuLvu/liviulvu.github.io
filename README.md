@@ -1,13 +1,7 @@
-# LiviuLvu.github.io
+# LiviuLvu.github.io  
 
-Learning javascript
+Learning to code for the web.  
 
-This is a preview of my tutorials and some small projects made with javascript and related frontend technologies:
-http://liviulvu.github.io/
+A list of small website and app projects made with javascript and related frontend technologies. For example Node.js, npm, grunt, bower, a bunch of css libraries, css preprocessors and a few text editors.  
 
-JS Frameworks tested: Angular1.js, Meteor.js, Bootstrap3, Phaser.js
-Other technologies:
-Node Package Manager
-Grunt and related automation tasks
-Stylus for CSS
-Sublime Text 3
+http://liviulvu.github.io/   
