@@ -14,29 +14,29 @@ Used on most projects: Sublime Text, NPM, Grunt.js, stylus.css
 Most recent projects on top.  
 
 ## List of selected tutorials and small projects  
-* [Search and Sort Classical Composers](http://lvudesign.com/composers-list/)  
+* [Search and Sort Classical Composers](http://http://liviulvu.github.io/composers-list/)  
     --- list.js, jquery   
-* [Parallax Black Suits](http://lvudesign.com/parallax-dark-suits/)  
+* [Parallax Black Suits](http://http://liviulvu.github.io/parallax-dark-suits/)  
     --- jquery  
-* [Parallax Header](http://lvudesign.com/parallax-cello-header/)  
+* [Parallax Header](http://http://liviulvu.github.io/parallax-cello-header/)  
     --- jquery  
-* [Calculate total checked items](http://lvudesign.com/calculator-options-cost/)  
+* [Calculate total checked items](http://http://liviulvu.github.io/calculator-options-cost/)  
     --- jquery  
-* [Interactive Map](http://lvudesign.com/interactive_map/)  
+* [Interactive Map](http://http://liviulvu.github.io/interactive_map/)  
     --- jquery, stylus  
-* [Carousel Products Presentation](http://lvudesign.com/learning-carousel/)  
+* [Carousel Products Presentation](http://http://liviulvu.github.io/learning-carousel/)  
     --- jquery, jquery.roundabout  
-* [Sortable Gallery page](http://lvudesign.com/learning-sortable-gallery/)  
+* [Sortable Gallery page](http://http://liviulvu.github.io/learning-sortable-gallery/)  
     --- jquery, jquery.fancybox, css rules with stylus  
-* [Timeline App](http://lvudesign.com/learning-timeline-jquery/)  
+* [Timeline App](http://http://liviulvu.github.io/learning-timeline-jquery/)  
     --- jquery, Stylus CSS  
-* [Live Search app](http://lvudesign.com/learning-live-search/)  
+* [Live Search app](http://http://liviulvu.github.io/learning-live-search/)  
     --- jquery, stylus.css  
-* [Create Books data app](http://lvudesign.com/learning-minimal-js-app/)  
+* [Create Books data app](http://http://liviulvu.github.io/learning-minimal-js-app/)  
     --- CSS, plain javascript  
-* [Mobile responsive .psd to HTMl conversion 2](http://lvudesign.com/test-agency/)  
+* [Mobile responsive .psd to HTMl conversion 2](http://http://liviulvu.github.io/test-agency/)  
     --- grunt browser-sync, watch, stylus.css, flexbox, jquery  
-* [Mobile responsive .psd to HTMl conversion](http://lvudesign.com/test-responsive/)  
+* [Mobile responsive .psd to HTMl conversion](http://http://liviulvu.github.io/test-responsive/)  
     --- grunt browser-sync, watch, stylus.css, flexbox, jquery  
 * [One page website with smooth scroll](https://liviuLvu.github.io/Bootstrap3_onePage_tut2)  
     --- CSS Bootstrap 3  
