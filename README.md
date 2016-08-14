@@ -23,7 +23,7 @@ Most recent projects on top.
     --- jquery, Stylus CSS  
 * [Mobile responsive .psd to HTMl conversion 2](http://liviulvu.github.io/test-agency/)  
     --- grunt browser-sync, watch, stylus.css, flexbox, jquery  
-* [Mobile responsive .psd to HTMl conversion](http://liviulvu.github.io/test-responsive/)  
+* [mobile-friendly-page](http://liviulvu.github.io/mobile-friendly-page)  
     --- grunt browser-sync, watch, stylus.css, flexbox, jquery  
 * [One page website with smooth scroll](https://liviuLvu.github.io/Bootstrap3_onePage_tut2)  
     --- CSS Bootstrap 3  
