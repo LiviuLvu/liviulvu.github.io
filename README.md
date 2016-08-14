@@ -21,7 +21,7 @@ Most recent projects on top.
     --- jquery, jquery.fancybox, css rules with stylus  
 * [Timeline App](http://liviulvu.github.io/learning-timeline-jquery/)  
     --- jquery, Stylus CSS  
-* [Mobile responsive .psd to HTMl conversion 2](http://liviulvu.github.io/test-agency/)  
+* [psd to HTMl conversion](http://liviulvu.github.io/home-agency/)  
     --- grunt browser-sync, watch, stylus.css, flexbox, jquery  
 * [mobile-friendly-page](http://liviulvu.github.io/mobile-friendly-page)  
     --- grunt browser-sync, watch, stylus.css, flexbox, jquery  
