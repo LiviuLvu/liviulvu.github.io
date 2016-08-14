@@ -21,8 +21,6 @@ Most recent projects on top.
     --- jquery, jquery.fancybox, css rules with stylus  
 * [Timeline App](http://liviulvu.github.io/learning-timeline-jquery/)  
     --- jquery, Stylus CSS  
-* [Live Search app](http://liviulvu.github.io/learning-live-search/)  
-    --- jquery, stylus.css  
 * [Create Books data app](http://liviulvu.github.io/learning-minimal-js-app/)  
     --- CSS, plain javascript  
 * [Mobile responsive .psd to HTMl conversion 2](http://liviulvu.github.io/test-agency/)  
