@@ -29,8 +29,6 @@ Most recent projects on top.
     --- CSS Bootstrap 3  
 * [One-page first bootstrap website](https://liviuLvu.github.io/bootstrap3-onepage-learning)  
     --- CSS Bootstrap 3  
-* [Front page](https://liviuLvu.github.io/codeacademy/airbnb_website)  
-    --- html, css, bootstrap  
 
 
 ### You can also preview the list online here:  
