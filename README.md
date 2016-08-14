@@ -15,8 +15,6 @@ Most recent projects on top.
     --- jquery  
 * [Calculate total checked items](http://liviulvu.github.io/calculator-options-cost/)  
     --- jquery  
-* [Interactive Map](http://liviulvu.github.io/interactive_map/)  
-    --- jquery, stylus  
 * [Carousel Products Presentation](http://liviulvu.github.io/learning-carousel/)  
     --- jquery, jquery.roundabout  
 * [Sortable Gallery page](http://liviulvu.github.io/learning-sortable-gallery/)  
