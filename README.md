@@ -25,9 +25,9 @@ Most recent projects on top.
     --- grunt browser-sync, watch, stylus.css, flexbox, jquery  
 * [mobile-friendly-page](http://liviulvu.github.io/mobile-friendly-page)  
     --- grunt browser-sync, watch, stylus.css, flexbox, jquery  
-* [One page website with smooth scroll](https://liviuLvu.github.io/Bootstrap3_onePage_tut2)  
+* [one-page smooth-scroll links](https://liviuLvu.github.io/bootstrap3-smoothscroll)  
     --- CSS Bootstrap 3  
-* [One page website tutorial](https://liviuLvu.github.io/Bootstrap3_onePage_tut1)  
+* [One-page first bootstrap website](https://liviuLvu.github.io/bootstrap3-onepage-learning)  
     --- CSS Bootstrap 3  
 * [Front page](https://liviuLvu.github.io/codeacademy/airbnb_website)  
     --- html, css, bootstrap  
