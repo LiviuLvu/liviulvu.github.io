@@ -1,0 +1,21 @@
+body{
+   max-width: 1000px;
+   margin: auto;
+}
+li{
+   list-style: none;
+   margin-bottom: 40px;
+}
+a{
+   margin-right: 10px;
+}
+img{
+   display: inline-block;
+   max-width:100%;
+}
+.list-title{
+/*   padding-left: 100px;  */
+}
+.list-item_details{
+   display: inline-block;  
+}
