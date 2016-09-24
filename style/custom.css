@@ -1,9 +1,5 @@
 
 /* custom changes */
-/*html, body {
-   height: 100%
-}*/
-
 header {
    min-height: 100vh;
    display: flex;
@@ -11,11 +7,19 @@ header {
    justify-content: center;
    align-items: center;
    padding: 30px 10px;
-   background-color: #f4f4f5;
    border-bottom: solid 1px #eaeaea;
    background-image: url('../img/hero-color.jpg');
    background-repeat: no-repeat;
    background-size: cover;
+}
+.profile-img {
+   display: none;
+}
+
+@media (max-width: 640px) {
+   header {
+      background-position: 20% 10%;
+   }
 }
 
 ul{
@@ -47,7 +51,6 @@ footer a {
 
 .header-container h1, .header-container h3 {
    text-align: center;
-   /*color: white;*/
 }
 
 .subtitle {
