@@ -12,9 +12,6 @@ header {
    background-repeat: no-repeat;
    background-size: cover;
 }
-.profile-img {
-   display: none;
-}
 
 @media (max-width: 640px) {
    header {
@@ -35,13 +32,16 @@ li img {
    max-width: 100%;
    margin-bottom: 20px;
 }
+ul a {
+   margin-right: 10px;
+}
 
 footer {
    text-align: center;
 }
-footer a, ul a {
-   margin-right: 10px;
-   margin-bottom: 10px;
+
+footer a{
+   margin-left: 10px;
 }
 
 .external-link a {
@@ -73,7 +73,7 @@ footer a, ul a {
 .contact-links a {
    margin: 30px 8px 0px;
 }
-.contact-links p {
+.contact-links p:not(:last-child) {
    padding-top: 30px;
 }
 
