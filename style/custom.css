@@ -39,8 +39,16 @@ li img {
 footer {
    text-align: center;
 }
-footer a {
-   margin-left: 10px;
+footer a, ul a {
+   margin-right: 10px;
+   margin-bottom: 10px;
+}
+
+.external-link a {
+   padding-left: 18px; 
+   background-image: url("../img/external.png");
+   background-repeat: no-repeat;
+   background-position: 0% 30%;
 }
 
 .header-container {
@@ -77,4 +85,3 @@ footer a {
    margin: 30px;
    text-align: center;
 }
-
