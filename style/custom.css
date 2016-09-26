@@ -8,12 +8,9 @@ header {
    align-items: center;
    padding: 30px 10px;
    border-bottom: solid 1px #eaeaea;
-   background-image: url('../img/hero-color.jpg');
+   background-image: url('../img/hero-color2.jpg');
    background-repeat: no-repeat;
    background-size: cover;
-}
-.profile-img {
-   display: none;
 }
 
 @media (max-width: 640px) {
@@ -35,13 +32,16 @@ li img {
    max-width: 100%;
    margin-bottom: 20px;
 }
+ul a {
+   margin-right: 10px;
+}
 
 footer {
    text-align: center;
 }
-footer a, ul a {
-   margin-right: 10px;
-   margin-bottom: 10px;
+
+footer a{
+   margin-left: 10px;
 }
 
 .external-link a {
@@ -65,23 +65,28 @@ footer a, ul a {
    margin-bottom: 30px;
 }
 
-.contact-links {
+.button-links {
    text-align: center;
    padding: 40px auto 0px;
 }
 
-.contact-links a {
+.button-links a {
    margin: 30px 8px 0px;
 }
-.contact-links p {
+.button-links p:not(:last-child) {
    padding-top: 30px;
 }
 
-.contact-links span {
+.button-links span {
    margin-right: 2px;
 }
 
 #projects {
    margin: 30px;
    text-align: center;
+}
+
+.connections a {
+   color: #000;
+   text-decoration: underline;
 }
