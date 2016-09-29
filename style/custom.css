@@ -37,6 +37,8 @@ ul a {
 }
 
 footer {
+   max-width: 800px;
+   margin: auto;
    text-align: center;
 }
 
