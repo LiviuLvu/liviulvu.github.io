@@ -1,94 +1,85 @@
-
-/* custom changes */
+/* custom changes to concise.css */
 header {
-   min-height: 100vh;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   padding: 30px 10px;
-   border-bottom: solid 1px #eaeaea;
-   background-image: url('../img/hero-color2.jpg');
-   background-repeat: no-repeat;
-   background-size: cover;
-}
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 10px;
+  border-bottom: solid 1px #eaeaea;
+  background-image: url("../img/hero-color2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
 
 @media (max-width: 640px) {
-   header {
-      background-position: 20% 10%;
-   }
-}
+  header {
+    background-position: 20% 10%; } }
 
-ul{
-   padding: 30px 10px;
-}
+ul {
+  padding: 30px 10px; }
+
 li {
-   max-width: 800px;
-   margin: 0 auto 50px;
-   list-style: none;
-}
+  max-width: 800px;
+  margin: 0 auto 50px;
+  list-style: none; }
 
 li img {
-   max-width: 100%;
-   margin-bottom: 20px;
-}
+  max-width: 100%;
+  margin-bottom: 20px; }
+
 ul a {
-   margin-right: 10px;
-}
+  margin-right: 10px; }
 
 footer {
-   max-width: 800px;
-   margin: auto;
-   text-align: center;
-}
+  width: 100%;
+  background-color: #f6fafd;
+  border-top: solid 1px #eaeaea; }
 
-footer a{
-   margin-left: 10px;
-}
+footer a {
+  margin-left: 10px; }
 
-.external-link a {
-   padding-left: 18px; 
-   background-image: url("../img/external.png");
-   background-repeat: no-repeat;
-   background-position: 0% 30%;
-}
-
-.header-container {
-   position: relative;
-   z-index: 2;
-   max-width: 800px;
-}
-
-.header-container h1, .header-container h3 {
-   text-align: center;
-}
-
-.subtitle {
-   margin-bottom: 30px;
-}
-
-.button-links {
-   text-align: center;
-   padding: 40px auto 0px;
-}
-
-.button-links a {
-   margin: 30px 8px 0px;
-}
-.button-links p:not(:last-child) {
-   padding-top: 30px;
-}
-
-.button-links span {
-   margin-right: 2px;
-}
-
-#projects {
-   margin: 30px;
-   text-align: center;
-}
+.connections {
+  max-width: 700px;
+  margin: 0px auto;
+  padding: 40px 0px;
+  text-align: center; }
 
 .connections a {
-   color: #000;
-   text-decoration: underline;
-}
+  color: #000;
+  text-decoration: underline; }
+
+.external-link a {
+  padding-left: 18px;
+  background-image: url("../img/external.png");
+  background-repeat: no-repeat;
+  background-position: 0% 30%; }
+
+.header-container {
+  position: relative;
+  z-index: 2;
+  max-width: 800px; }
+
+.header-container h1,
+.header-container h3 {
+  text-align: center; }
+
+.subtitle {
+  margin-bottom: 30px; }
+
+.button-links {
+  text-align: center;
+  padding: 40px auto 0px; }
+
+.button-links a {
+  margin: 30px 8px 0px; }
+
+.button-links p:not(:last-child) {
+  padding-top: 30px; }
+
+.button-links span {
+  margin-right: 2px; }
+
+#projects {
+  margin: 30px;
+  text-align: center; }
