@@ -49,6 +49,9 @@ footer a {
   color: #000;
   text-decoration: underline; }
 
+.connections h3 {
+  margin-top: 30px; }
+
 .external-link a {
   padding-left: 18px;
   background-image: url("../img/external.png");
@@ -74,8 +77,8 @@ footer a {
 .button-links a {
   margin: 30px 8px 0px; }
 
-.button-links p:not(:last-child) {
-  padding-top: 30px; }
+.button-links p:first-child {
+  margin-top: 40px; }
 
 .button-links span {
   margin-right: 2px; }

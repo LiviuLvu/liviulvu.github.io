@@ -31,7 +31,7 @@ gulp.task('useref', function() {
    .pipe(gulp.dest('./'));
 });
 
-gulp.task('watch', ['browserSync', 'sass'], function() {
-   gulp.watch('developement/style/*.scss',['sass']);
+gulp.task('watch', ['browserSync', 'sass', 'useref'], function() {
+   gulp.watch('developement/style/*.scss',['sass', 'useref']);
    gulp.watch('./*.html', browserSync.reload);
 });

@@ -1127,8 +1127,7 @@ h3 a:focus,
 .h2 a:focus,
 .h3 a:hover,
 .h3 a:focus {
-  color: #4591aa;
-  text-decoration: none; }
+  color: #4591aa; }
 
 abbr[title] {
   border-bottom: 1px dotted #e0e0e0;

@@ -3,7 +3,6 @@
 // variables
 $border-color: solid 1px #eaeaea;
 
-
 header {
    min-height: 100vh;
    display: flex;
@@ -64,6 +63,10 @@ footer a {
    text-decoration: underline;
 }
 
+.connections h3 {
+   margin-top: 30px;
+}
+
 .external-link a {
    padding-left: 18px;
    background-image: url("../img/external.png");
@@ -95,8 +98,8 @@ footer a {
    margin: 30px 8px 0px;
 }
 
-.button-links p:not(:last-child) {
-   padding-top: 30px;
+.button-links p:first-child {
+   margin-top: 40px;
 }
 
 .button-links span {
