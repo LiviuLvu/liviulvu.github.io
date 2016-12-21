@@ -16,11 +16,9 @@ header {
   header {
     background-position: 20% 10%; } }
 
-ul {
-  padding: 30px 10px; }
-
 li {
   max-width: 800px;
+  padding: 30px 10px;
   margin: 0 auto 50px;
   list-style: none; }
 
@@ -36,21 +34,17 @@ footer {
   background-color: #f6fafd;
   border-top: solid 1px #eaeaea; }
 
-footer a {
-  margin-left: 10px; }
-
-.connections {
-  max-width: 700px;
-  margin: 0px auto;
-  padding: 40px 0px;
+.title {
   text-align: center; }
 
-.connections a {
-  color: #000;
-  text-decoration: underline; }
+.section-description {
+  max-width: 800px;
+  margin: 0px auto;
+  padding: 40px 10px; }
 
-.connections h3 {
-  margin-top: 30px; }
+header .section-description {
+  position: absolute;
+  bottom: 0px; }
 
 .external-link a {
   padding-left: 18px;
