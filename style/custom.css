@@ -42,13 +42,21 @@ footer {
   margin: 0px auto;
   padding: 40px 10px; }
 
-header .section-description {
-  position: absolute;
-  bottom: 0px; }
-
 .external-link a {
   padding-left: 18px;
   background-image: url("../img/external.png");
+  background-repeat: no-repeat;
+  background-position: 0% 30%; }
+
+.download-link a {
+  padding-left: 18px;
+  background-image: url("../img/download.png");
+  background-repeat: no-repeat;
+  background-position: 0% 30%; }
+
+.email-link a {
+  padding-left: 18px;
+  background-image: url("../img/email.png");
   background-repeat: no-repeat;
   background-position: 0% 30%; }
 
