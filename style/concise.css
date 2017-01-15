@@ -152,7 +152,7 @@ blockquote footer:before {
 button,
 input[type="submit"],
 .button {
-  background-color: #4591aa;
+  background-color: #00a8cc;
   border: none;
   color: white;
   cursor: pointer;
@@ -218,7 +218,7 @@ input[disabled][type="submit"],
   background-color: #63a8bf; }
 
 .button--success {
-  background-color: #45ca69; }
+  background-color: #00a8cc; }
 
 .button--success:hover,
 .button--success:focus {
@@ -599,7 +599,7 @@ h3,
 .giga,
 .mega,
 .kilo {
-  margin: 0px 0 10px; }
+  margin: 0px 0 30px; }
 
 h1 small,
 h1 .small,
@@ -2052,7 +2052,7 @@ ol.dropdown-content {
 
 @media (min-width: 48em) {
   .modal--small .modal-container {
-    width: 360px; } }
+    max-width: 360px; } }
 
 @media (min-width: 48em) {
   .modal--large .modal-container {

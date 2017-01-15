@@ -6,7 +6,7 @@ header {
   justify-content: center;
   align-items: center;
   padding: 30px 10px;
-  border-bottom: solid 1px #eaeaea;
+  border-bottom: solid 1px #e5e5e5;
   background-image: url("../img/hero-color2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -14,7 +14,9 @@ header {
 
 @media (max-width: 640px) {
   header {
-    background-position: 20% 10%; } }
+    background-position: 20% 10%; }
+  .giga {
+    font-size: 2.75em; } }
 
 li {
   max-width: 800px;
@@ -32,7 +34,7 @@ ul a {
 footer {
   width: 100%;
   background-color: #f6fafd;
-  border-top: solid 1px #eaeaea; }
+  border-top: solid 1px #e5e5e5; }
 
 .title {
   text-align: center; }
@@ -77,7 +79,7 @@ footer {
   padding: 40px auto 0px; }
 
 .button-links a {
-  margin: 30px 8px 0px; }
+  margin: 10px 8px 0px; }
 
 .button-links p:first-child {
   margin-top: 40px; }

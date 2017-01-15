@@ -1,7 +1,7 @@
 /* custom changes to concise.css */
 
 // variables
-$border-color: solid 1px #eaeaea;
+$border-color: solid 1px #e5e5e5;
 
 header {
  min-height: 100vh;
@@ -20,6 +20,9 @@ header {
 @media (max-width: 640px) {
  header {
   background-position: 20% 10%;
+ }
+ .giga {
+  font-size: 2.75em;
  }
 }
 
@@ -96,7 +99,7 @@ footer {
 }
 
 .button-links a {
- margin: 30px 8px 0px;
+ margin: 10px 8px 0px;
 }
 
 .button-links p:first-child {
