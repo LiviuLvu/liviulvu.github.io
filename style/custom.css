@@ -1,4 +1,17 @@
 /* custom changes to concise.css */
+.icons-media, .git-ico a, .tw-ico a, .li-ico a {
+  margin-top: -4px;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-repeat: no-repeat; }
+
+.icons-links, .external-link a, .email-link a {
+  display: inline-block;
+  padding-left: 26px;
+  background-repeat: no-repeat;
+  background-size: 20px; }
+
 header {
   min-height: 100vh;
   display: flex;
@@ -8,7 +21,6 @@ header {
   padding: 30px 10px;
   border-bottom: solid 1px #e5e5e5;
   background-image: url("../img/hero-color2.jpg");
-  background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed; }
 
@@ -17,6 +29,10 @@ header {
     background-position: 20% 10%; }
   .giga {
     font-size: 2.75em; } }
+
+a {
+  display: inline-block;
+  margin-top: 16px; }
 
 li {
   max-width: 800px;
@@ -42,25 +58,25 @@ footer {
 .section-description {
   max-width: 800px;
   margin: 0px auto;
-  padding: 40px 10px; }
+  padding: 30px 10px; }
+  .section-description a {
+    margin-right: 20px;
+    margin-top: 16px; }
 
 .external-link a {
-  padding-left: 18px;
-  background-image: url("../img/external.png");
-  background-repeat: no-repeat;
-  background-position: 0% 30%; }
-
-.download-link a {
-  padding-left: 18px;
-  background-image: url("../img/download.png");
-  background-repeat: no-repeat;
-  background-position: 0% 30%; }
+  background-image: url("../img/external.svg"); }
 
 .email-link a {
-  padding-left: 18px;
-  background-image: url("../img/email.png");
-  background-repeat: no-repeat;
-  background-position: 0% 30%; }
+  background-image: url("../img/email.svg"); }
+
+.git-ico a {
+  background-image: url("../img/git.svg"); }
+
+.tw-ico a {
+  background-image: url("../img/tw.svg"); }
+
+.li-ico a {
+  background-image: url("../img/li.svg"); }
 
 .header-container {
   position: relative;
@@ -78,13 +94,11 @@ footer {
   text-align: center;
   padding: 40px auto 0px; }
 
-.button-links a {
-  margin: 10px 8px 0px; }
-
 .button-links p:first-child {
   margin-top: 40px; }
 
 .button-links span {
+  vertical-align: baseline;
   margin-right: 2px; }
 
 #projects {
