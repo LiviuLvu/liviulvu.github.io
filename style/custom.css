@@ -26,28 +26,28 @@ header {
   background-color: #ffe401; }
 
 .fade-in1 {
-  animation: 600ms ease forwards 1 fadein;
-  -webkit-animation: 1s ease forwards 1 fadein;
+  animation: 600ms ease 300ms normal forwards 1 fadein;
+  -webkit-animation: 1s ease 300ms normal forwards 1 fadein;
   opacity: 0; }
 
 .fade-in2 {
-  animation: 600ms ease 300ms normal forwards 1 fadein;
-  -webkit-animation: 600ms ease 300ms normal forwards 1 fadein;
-  opacity: 0; }
-
-.fade-in3 {
   animation: 600ms ease 600ms normal forwards 1 fadein;
   -webkit-animation: 600ms ease 600ms normal forwards 1 fadein;
   opacity: 0; }
 
-.fade-in4 {
+.fade-in3 {
   animation: 600ms ease 900ms normal forwards 1 fadein;
   -webkit-animation: 600ms ease 900ms normal forwards 1 fadein;
   opacity: 0; }
 
-.fade-in5 {
+.fade-in4 {
   animation: 600ms ease 1200ms normal forwards 1 fadein;
   -webkit-animation: 600ms ease 1200ms normal forwards 1 fadein;
+  opacity: 0; }
+
+.fade-in5 {
+  animation: 600ms ease 1500ms normal forwards 1 fadein;
+  -webkit-animation: 600ms ease 1500ms normal forwards 1 fadein;
   opacity: 0; }
 
 @keyframes fadein {
@@ -98,8 +98,7 @@ footer {
   margin: 0px auto;
   padding: 20px 10px; }
   .section-description a {
-    margin-right: 20px;
-    margin-top: 16px; }
+    margin: 16px 10px 0px; }
 
 .external-link a {
   background-image: url("../img/external.svg"); }
