@@ -1,8 +1,8 @@
 /* custom changes to concise.css */
 .icons-media, .git-ico a, .tw-ico a, .li-ico a {
-  margin-top: -4px;
   width: 24px;
   height: 24px;
+  margin: 20px 10px;
   display: inline-block;
   background-repeat: no-repeat; }
 
@@ -24,6 +24,9 @@ header {
   background-size: cover;
   background-attachment: fixed;
   background-color: #ffe401; }
+
+footer {
+  padding-bottom: 20px; }
 
 .fade-in1 {
   animation: 600ms ease 300ms normal forwards 1 fadein;
@@ -89,6 +92,9 @@ li img {
 ul a {
   margin-right: 10px; }
 
+footer .git-ico a {
+  margin-left: 0px; }
+
 footer {
   width: 100%;
   background-color: #f6fafd;
@@ -101,13 +107,16 @@ footer {
   max-width: 800px;
   margin: 0px auto;
   padding: 20px 10px; }
-  .section-description a {
-    margin: 6px 10px; }
+
+.menu-links > * {
+  display: inline-block;
+  margin: 0px 18px 0px; }
 
 .external-link a {
   background-image: url("../img/external.svg"); }
 
 .email-link a {
+  margin-right: 20px;
   background-image: url("../img/email.svg"); }
 
 .git-ico a {
