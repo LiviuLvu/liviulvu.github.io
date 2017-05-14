@@ -3,7 +3,7 @@
 // variables
 $border-color: solid 1px #e5e5e5;
 
-// shared rules
+// rules shared with multiple elements
 .icons-media {
   margin-top: -4px;
   width: 24px;
@@ -30,6 +30,44 @@ header {
   background-image: url('../img/hero-color2.jpg');
   background-size: cover;
   background-attachment: fixed; 
+}
+
+.fade-in1{
+animation:600ms ease forwards 1 fadein;
+-webkit-animation: 1s ease forwards 1 fadein;
+opacity:0
+}
+
+.fade-in2{
+animation: 600ms ease 300ms normal forwards 1 fadein;
+-webkit-animation: 600ms ease 300ms normal forwards 1 fadein;
+opacity:0
+}
+
+.fade-in3{
+animation: 600ms ease 600ms normal forwards 1 fadein;
+-webkit-animation: 600ms ease 600ms normal forwards 1 fadein;
+opacity:0
+}
+
+.fade-in4{
+animation: 600ms ease 900ms normal forwards 1 fadein;
+-webkit-animation: 600ms ease 900ms normal forwards 1 fadein;
+opacity:0
+}
+
+.fade-in5{
+animation: 600ms ease 1200ms normal forwards 1 fadein;
+-webkit-animation: 600ms ease 1200ms normal forwards 1 fadein;
+opacity:0
+}
+
+@keyframes fadein{from{opacity:0}
+to{opacity:1}
+}
+
+@-webkit-keyframes fadein{from{opacity:0}
+to{opacity:1}
 }
 
 @media (max-width: 640px) {
@@ -108,31 +146,11 @@ footer {
 
 .header-container {
   position: relative;
-  z-index: 2;
   max-width: 800px;
-}
-
-.header-container h1,
-.header-container h3 {
-  text-align: center;
 }
 
 .subtitle {
   margin-bottom: 30px;
-}
-
-.button-links {
-  text-align: center;
-  padding: 40px auto 0px;
-}
-
-.button-links p:first-child {
-  margin-top: 40px;
-}
-
-.button-links span {
-  vertical-align: baseline;
-  margin-right: 2px;
 }
 
 #projects {
