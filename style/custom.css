@@ -25,9 +25,6 @@ header {
   background-attachment: fixed;
   background-color: #ffe401; }
 
-footer {
-  padding-bottom: 20px; }
-
 .fade-in1 {
   animation: 600ms ease 300ms normal forwards 1 fadein;
   -webkit-animation: 1s ease 300ms normal forwards 1 fadein;
@@ -92,13 +89,18 @@ li img {
 ul a {
   margin-right: 10px; }
 
-footer .git-ico a {
-  margin-left: 0px; }
-
 footer {
+  padding-bottom: 20px;
   width: 100%;
   background-color: #f6fafd;
   border-top: solid 1px #e5e5e5; }
+
+footer .git-ico a {
+  margin-left: 0px; }
+
+@media (max-width: 460px) {
+  footer {
+    text-align: center; } }
 
 .title {
   text-align: center; }
@@ -111,6 +113,11 @@ footer {
 .menu-links > * {
   display: inline-block;
   margin: 0px 18px 0px; }
+
+@media (max-width: 460px) {
+  .menu-links > * {
+    font-size: 0.7em;
+    margin: 0px 14px 0px; } }
 
 .external-link a {
   background-image: url("../img/external.svg"); }
