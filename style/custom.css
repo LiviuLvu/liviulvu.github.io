@@ -116,8 +116,8 @@ footer .git-ico a {
 
 @media (max-width: 460px) {
   .menu-links > * {
-    font-size: 0.7em;
-    margin: 0px 14px 0px; } }
+    font-size: 0.8em;
+    margin: 0px 8px 0px; } }
 
 .external-link a {
   background-image: url("../img/external.svg"); }
