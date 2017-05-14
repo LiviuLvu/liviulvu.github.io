@@ -1,7 +1,13 @@
-# Liviu Iancu 
-### Graphic designer, FrontEnd Coder 
+# Portfolio Page  
+### For FrontEnd Coders  
+
+This page was created to serve as personal portfolio.  
+Feel free to reuse and modify the layout however you like. Customize the fonts and images to your personal content.
+
+Please star this project if you like it :)  
+
+If you reuse the template its nice of you if you put a link to this repo, but it is not required.  
 
 
-My path of learning to code resulted in this list of small projects made with javascript and related frontend technologies. Some of the tools I used include Node.js, npm, grunt, bower, a bunch of css libraries, css preprocessors and a few text editors.
-
+## Live preview
 http://liviulvu.github.io/
