@@ -35,32 +35,32 @@ header {
 }
 
 .fade-in1{
-animation:600ms ease 300ms normal forwards 1 fadein;
--webkit-animation: 1s ease 300ms normal forwards 1 fadein;
+animation:600ms ease 100ms normal forwards 1 fadein;
+-webkit-animation: 1s ease 100ms normal forwards 1 fadein;
 opacity:0
 }
 
 .fade-in2{
-animation: 600ms ease 600ms normal forwards 1 fadein;
--webkit-animation: 600ms ease 600ms normal forwards 1 fadein;
+animation: 600ms ease 200ms normal forwards 1 fadein;
+-webkit-animation: 600ms ease 200ms normal forwards 1 fadein;
 opacity:0
 }
 
 .fade-in3{
-animation: 600ms ease 900ms normal forwards 1 fadein;
--webkit-animation: 600ms ease 900ms normal forwards 1 fadein;
+animation: 600ms ease 300ms normal forwards 1 fadein;
+-webkit-animation: 600ms ease 300ms normal forwards 1 fadein;
 opacity:0
 }
 
 .fade-in4{
-animation: 600ms ease 1200ms normal forwards 1 fadein;
--webkit-animation: 600ms ease 1200ms normal forwards 1 fadein;
+animation: 600ms ease 400ms normal forwards 1 fadein;
+-webkit-animation: 600ms ease 400ms normal forwards 1 fadein;
 opacity:0
 }
 
 .fade-in5{
-animation: 600ms ease 1500ms normal forwards 1 fadein;
--webkit-animation: 600ms ease 1500ms normal forwards 1 fadein;
+animation: 600ms ease 500ms normal forwards 1 fadein;
+-webkit-animation: 600ms ease 500ms normal forwards 1 fadein;
 opacity:0
 }
 
