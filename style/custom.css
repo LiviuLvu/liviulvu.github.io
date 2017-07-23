@@ -22,8 +22,7 @@ header {
   border-bottom: solid 1px #e5e5e5;
   background-image: url("../img/uipattern.jpg");
   background-size: cover;
-  background-attachment: fixed;
-  background-color: #ffe401; }
+  background-attachment: fixed; }
 
 .fade-in1 {
   animation: 600ms ease 100ms normal forwards 1 fadein;
