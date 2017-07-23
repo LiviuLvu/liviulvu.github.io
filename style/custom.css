@@ -20,7 +20,7 @@ header {
   align-items: center;
   padding: 30px 10px;
   border-bottom: solid 1px #e5e5e5;
-  background-image: url("../img/hero-color2.jpg");
+  background-image: url("../img/uipattern.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-color: #ffe401; }
@@ -144,3 +144,12 @@ footer .git-ico a {
 #projects {
   margin: 30px;
   text-align: center; }
+
+.button, button {
+  background-color: #d83333; }
+
+.button:hover, button:hover {
+  color: #fff; }
+
+.mega {
+  color: #d83333; }

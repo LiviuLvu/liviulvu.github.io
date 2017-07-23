@@ -28,7 +28,7 @@ header {
   align-items: center;
   padding: 30px 10px;
   border-bottom: $border-color;
-  background-image: url('../img/hero-color2.jpg');
+  background-image: url('../img/uipattern.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-color: #ffe401;
@@ -184,3 +184,17 @@ footer .git-ico a {
   margin: 30px;
   text-align: center;
 }
+
+// overrides
+.button, button {
+  background-color: #d83333;
+}
+
+.button:hover, button:hover {
+  color: #fff;
+}
+
+.mega {
+  color: #d83333;
+}
+// overrides end
